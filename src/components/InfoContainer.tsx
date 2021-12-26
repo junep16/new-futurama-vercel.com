@@ -1,14 +1,13 @@
 import { Error, Loading, InfoCard } from "."; 
-import { useInfoData } from "../hooks/useInfoData";
+import { useData } from "../hooks/useData";
 import { Info } from "../types/info";
 
 interface InfoContainerProps {
   name: string,
 }
 
-
 export const InfoContainer = ({ name }: InfoContainerProps) => {
-  const { data, error } = useInfoData(name);
+  const { data, error } = useData(name);
 
   if(error) return <Error />
   if(!data) return <Loading />
