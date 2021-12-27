@@ -1,18 +1,34 @@
-import Link from "next/link" 
+import Link from "next/link"  
 import styled from "@emotion/styled"; 
 
 export const Navigation = () => {
   return (
     <HeadStyle>
-          <TitleStyle><h1><a href="https://new-futurama-vercel-com-mbcedkdct-junep16.vercel.app/info">Futurama</a></h1></TitleStyle>
+          <TitleStyle>
+            <Link href= "/">
+              Futurama
+            </Link>
+          </TitleStyle>
           <NavWrap> 
                 <NavList>
-                    <a href="https://new-futurama-vercel-com-mbcedkdct-junep16.vercel.app/info"><li>Info</li></a>
-                    <a href="https://new-futurama-vercel-com-mbcedkdct-junep16.vercel.app/character"><li>Characters</li></a>
-                    <a href="https://new-futurama-vercel-com-mbcedkdct-junep16.vercel.app/cast"><li>Casts</li></a>
-                    <a href="https://new-futurama-vercel-com-mbcedkdct-junep16.vercel.app/episode"><li>Episodes</li></a>
-                    <a href="https://new-futurama-vercel-com-mbcedkdct-junep16.vercel.app/question"> <li>Questions</li></a>
-                    <a href="https://new-futurama-vercel-com-mbcedkdct-junep16.vercel.app/inventory"><li>Inventory</li></a>  
+                    <Link href ="/info">
+                      Info
+                    </Link>
+                    <Link href ="/character">
+                      Characters
+                    </Link>
+                    <Link href ="/cast">
+                      Casts
+                    </Link>
+                    <Link href ="/episode">
+                      Episodes
+                    </Link>
+                    <Link href ="/question"> 
+                      Questions
+                    </Link>
+                    <Link href ="/inventory">
+                      Inventory
+                    </Link>  
                 </NavList> 
           </NavWrap>
     </HeadStyle>
@@ -27,10 +43,10 @@ background: #0C0032;
 padding: 20px; 
 `
 
-const TitleStyle = styled.h1`
-font-size: 18px; 
-color: #FFF;  
-margin: 0; 
+const TitleStyle = styled.h1` 
+  font-size: 18px; 
+  color: #FFF;  
+  margin: 0; 
 `
 
 const NavWrap = styled.nav`
@@ -39,9 +55,8 @@ justify-content: center;
 align-items: center;
 `
 
-const NavList = styled.ul`
-display: flex; 
-list-style: none; 
+const NavList = styled.li`
+display: flex;  
 color: #FFF; 
 &>a {
     margin: 0 20px; 
