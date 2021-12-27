@@ -7,12 +7,12 @@ export const Navigation = () => {
           <TitleStyle><h1><a href="http://localhost:3000">Futurama</a></h1></TitleStyle>
           <NavWrap> 
                 <NavList>
-                    <a href="http://localhost:3000/info"><li>Info</li></a>
-                    <a href="http://localhost:3000/character"><li>Characters</li></a>
-                    <a href="http://localhost:3000/cast"><li>Casts</li></a>
-                    <a href="http://localhost:3000/episode"><li>Episodes</li></a>
-                    <a href="http://localhost:3000/question"> <li>Questions</li></a>
-                    <a href="http://localhost:3000/inventory"><li>Inventory</li></a>  
+                    <a href="https://new-futurama-vercel-com-mbcedkdct-junep16.vercel.app/info"><li>Info</li></a>
+                    <a href="https://new-futurama-vercel-com-mbcedkdct-junep16.vercel.app/character"><li>Characters</li></a>
+                    <a href="https://new-futurama-vercel-com-mbcedkdct-junep16.vercel.app/cast"><li>Casts</li></a>
+                    <a href="https://new-futurama-vercel-com-mbcedkdct-junep16.vercel.app/episode"><li>Episodes</li></a>
+                    <a href="https://new-futurama-vercel-com-mbcedkdct-junep16.vercel.app/question"> <li>Questions</li></a>
+                    <a href="https://new-futurama-vercel-com-mbcedkdct-junep16.vercel.app/inventory"><li>Inventory</li></a>  
                 </NavList> 
           </NavWrap>
     </HeadStyle>

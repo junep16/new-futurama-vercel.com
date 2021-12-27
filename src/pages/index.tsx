@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       </Head>
       <MainStyle> 
             <ImgStyle>
-              <a href="http://localhost:3000/info">
+              <a href="https://new-futurama-vercel-com-mbcedkdct-junep16.vercel.app/info">
                 <img src="images/futurama_logo.png"  alt="futurama logo" width={500} />
               </a>
             </ImgStyle>  
