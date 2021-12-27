@@ -4,7 +4,7 @@ import styled from "@emotion/styled";
 export const Navigation = () => {
   return (
     <HeadStyle>
-          <TitleStyle><h1><a href="http://localhost:3000">Futurama</a></h1></TitleStyle>
+          <TitleStyle><h1><a href="https://new-futurama-vercel-com-mbcedkdct-junep16.vercel.app/info">Futurama</a></h1></TitleStyle>
           <NavWrap> 
                 <NavList>
                     <a href="https://new-futurama-vercel-com-mbcedkdct-junep16.vercel.app/info"><li>Info</li></a>
