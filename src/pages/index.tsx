@@ -1,3 +1,4 @@
+import Link from "next/link" 
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -15,9 +16,9 @@ const Home: NextPage = () => {
       </Head>
       <MainStyle> 
             <ImgStyle>
-              <a href="https://new-futurama-vercel-com-mbcedkdct-junep16.vercel.app/info">
+              <Link href="https://new-futurama-vercel-com-mbcedkdct-junep16.vercel.app/info">
                 <img src="images/futurama_logo.png"  alt="futurama logo" width={500} />
-              </a>
+              </Link>
             </ImgStyle>  
       </MainStyle>
 
