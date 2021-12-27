@@ -4,9 +4,9 @@ export interface Character {
         middle: string, 
         last: string
     },
-    images: [
-        {main: string}
-    ],
+    images: {
+        main: string
+    },
     gender: string, 
     species: string, 
     homePlanet: string, 
